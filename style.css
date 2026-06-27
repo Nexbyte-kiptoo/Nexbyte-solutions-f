@@ -140,3 +140,85 @@ font-size:40px;
 #about{
 padding-top:140px;
 }
+/* Fix header spacing */
+body{
+padding-top:80px;
+}
+
+
+/* Smooth animations */
+.hero h1,
+.hero p,
+.btn{
+animation: fadeIn 1.5s ease;
+}
+
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+
+/* Better buttons */
+.btn{
+transition:0.3s;
+}
+
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+
+/* WhatsApp floating button */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+text-decoration:none;
+z-index:20;
+}
+
+
+/* Logo icon */
+.logo-icon{
+display:inline-flex;
+width:35px;
+height:35px;
+background:#38bdf8;
+color:#020617;
+border-radius:50%;
+align-items:center;
+justify-content:center;
+margin-right:8px;
+font-weight:bold;
+}
+
+
+/* Get started button */
+.start{
+margin-top:20px;
+display:inline-block;
+padding:15px 35px;
+border:2px solid #38bdf8;
+border-radius:30px;
+color:#38bdf8;
+text-decoration:none;
+  }
