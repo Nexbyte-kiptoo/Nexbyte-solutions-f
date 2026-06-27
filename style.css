@@ -306,3 +306,19 @@ footer h3 {
 footer p {
   margin: 8px 0;
   }
+.services {
+  text-align: center;
+  padding: 40px 15px;
+}
+
+.service-box {
+  background: #f1f5ff;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 300px;
+}
+
+.service-box h3 {
+  color: #003cff;
+  }
