@@ -266,3 +266,26 @@ transition:0.3s;
 .whatsapp:hover{
 transform:scale(1.1);
   }
+footer{
+background:#000814;
+padding:50px 20px;
+text-align:center;
+}
+
+
+footer p{
+margin:15px;
+}
+
+
+.footer-links a{
+color:#38bdf8;
+text-decoration:none;
+margin:10px;
+}
+
+
+.copy{
+font-size:14px;
+opacity:0.7;
+  }
