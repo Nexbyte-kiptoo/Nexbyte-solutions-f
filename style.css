@@ -312,31 +312,3 @@ background:#25D366;
 color:white;
 padding:14px 18px;
 border-radius:30px;
-font-weight:bold;
-z-index:100;
-text-decoration:none;
-}.contact {
-    text-align:center;
-    padding:70px 20px;
-}
-
-.contact h2 {
-    color:#00bfff;
-    font-size:32px;
-}
-
-.contact p {
-    color:white;
-    margin:15px;
-}
-
-.contact-btn {
-    display:inline-block;
-    margin-top:20px;
-    background:#00bfff;
-    color:black;
-    padding:12px 30px;
-    border-radius:25px;
-    text-decoration:none;
-    font-weight:bold;
-  }  
